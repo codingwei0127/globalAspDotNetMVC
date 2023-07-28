@@ -1,0 +1,670 @@
+﻿@{
+    ViewData["Title"] = "QueryPeriod";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var YearData = ViewBag.YearData;
+    var MonthData = ViewBag.MonthData;
+    var DayData = ViewBag.DayData;
+    var QueryType = ViewBag.QueryType;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">歷史週期查詢</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        選擇週期：
+                        <select class="selectpicker" data-size="5" data-style="btn btn-info btn-fill" title="請選擇週期" id="SearchPeriod" onchange="ChangePeriod()">
+                            <option disabled="disabled" selected="selected">請選擇週期</option>
+                            <option value="Year">年</option>
+                            <option value="Month">月</option>
+                            <option value="Day">日</option>
+                        </select>
+                        <div id="SelectYearDiv_big" class="SearchYear" style="display:none;">
+                            <form name="Year" method="post" enctype="multipart/form-data" asp-controller="Query" asp-action="YearQuery">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                選擇年分：
+                                <select name="year" class="selectpicker" data-size="8" data-style="btn btn-info btn-fill" title="請選擇年分" id="SearchYear" onchange="ChangePeriod()">
+                                    <option disabled="disabled" selected="selected">請選擇年分</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                </select>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div id="SelectYearDiv" style="display:inline"></div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input onclick="yearr()" style="font-weight:bold;margin-top:5px;margin-bottom:9px;display:inline;height:40px" class="btn btn-fill btn-sm btn-warning" type="submit" value="查詢" />
+                                <input onclick="ExcelYear()" class="btn btn-fill btn-success SearchSucces" type="submit" value="輸出Excel" style="font-weight: bold; margin-top: 0px; margin-bottom: 14px; background-color: #7CB342;">
+                            </form>
+                        </div>
+                        <div id="SelectMonthDiv_big" class="SearchMonth" style="display:none;">
+                            <form name="Month" method="post" enctype="multipart/form-data" action="">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                選擇年月分：
+                                <input style="font-weight:bold;color:#013d66;text-align:center;width:150px;display: inline;" class="form-control datepicker" type="month" id="month" name="month" min="2022-01" value="2022-12">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div id="SelectMonthDiv" style="display:inline"></div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input onclick="Find()" style="font-weight:bold;margin-top:5px;margin-bottom:9px;display:inline;height:40px" class="btn btn-fill btn-sm btn-warning" type="submit" value="查詢" />
+                                <input onclick="ExcelMonth()" class="btn btn-fill btn-success SearchSucces" type="submit" value="輸出Excel" style="font-weight: bold; margin-top: 0px; margin-bottom: 14px; background-color: #7CB342;">
+                            </form>
+                        </div>>
+                        <div id="SelectDayDiv_big" class="SearchDay" style="margin-top:5px;margin-bottom:5px;display:none;">
+                            <form name="day" method="post" enctype="multipart/form-data" asp-controller="Query" asp-action="DayQuery">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                選擇日期：
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input name="date" id="day" type="date" class="form-control datepicker" style="font-weight:bold;color:#013d66;text-align:center;width:150px;display:inline">
+                                <input name="start" type="date" class="form-control datepicker" id="SelectDay" style="font-weight:bold;color:#013d66;text-align:center;width:150px;display:none">
+                                <label name="end" style="display: none;"></label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input onclick="Day()" style="font-weight:bold;margin-top:5px;margin-bottom:9px;display:inline;height:40px" class="btn btn-fill btn-sm btn-warning" type="submit" value="查詢" />
+                                <input onclick="ExcelDay()" class="btn btn-fill btn-success SearchSucces" type="submit" value="輸出Excel" style="font-weight: bold; margin-top: 0px; margin-bottom: 14px; background-color: #7CB342;">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="CHTOutElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">冰機冰水出水溫度(°C)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="CHTOutDiv">
+                        <div id="CHTOutChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="CHTInElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰機冰水回水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="CHTInDiv">
+                        <div id="CHTInChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="CTTOutElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰機冷卻水出水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="CTTOutDiv">
+                        <div id="CTTOutChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="CTTInElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">冰機冷卻水回水溫度(°C)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="CTTInDiv">
+                        <div id="CTTInChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="FlowElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">冰水出水流量(LPM)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="FlowDiv">
+                        <div id="FlowChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="PowerElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">冰水系統01 - 冷卻水流量(共管)(LPM)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="FlowCommonDiv">
+                        <div id="FlowCommonChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="TOElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">室外空氣001 - 乾球溫度(°C)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="DBTDiv">
+                        <div id="DBTChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="RHElement" style="display: none">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">室外空氣001 - 相對濕度(%)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="RHDiv">
+                        <div id="RHChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+        document.getElementById("SysSearchTitle").classList.add("active");
+    document.getElementById("SysSearch").classList.add("show");
+    document.getElementById("SwitchBoardData").classList.add("active");
+
+    var SearchorNot = false;
+    var selectedBar = 0;
+    var SBchart = [];
+    $(document).ready(function () {
+        // initialise Datetimepicker and Sliders
+        md.initFormExtendedDatetimepickers();
+        if ($('.slider').length != 0) {
+            md.initSliders();
+        }
+        $("#SearchDay").datepicker("setDate", new Date());
+    });
+    var IsYearDataNull = 1,
+        IsMonthDataNull = 1,
+        IsDayDataNull = 1;
+
+    // 收到資料後
+    var Month = [], // 年報
+        Day = [], // 月報
+        Time = [], // 日搜尋
+
+        Ch1Chwflow = [],
+        Ch1Chwtout = [],
+        Ch1Chwtin = [],
+        Ch2Chwflow = [],
+        Ch2Chwtout = [],
+        Ch2Chwtin = [],
+        Ch1Cwflow = [],
+        Ch1Cwtout = [],
+        Ch1Cwtin = [],
+        Ch2Cwtout = [],
+        Ch2Cwtin = [],
+        Ch1Kw = [],
+        Ch2Kw = [],
+        Ch1Dbt = [],
+        Ch1Rh = [];
+        AverageCh1Chwflow = [],
+        AverageCh1Chwtout = [],
+        AverageCh1Chwtin = [],
+        AverageCh2Chwflow = [],
+        AverageCh2Chwtout = [],
+        AverageCh2Chwtin = [],
+        AverageCh1Cwflow = [],
+        AverageCh1Cwtout = [],
+        AverageCh1Cwtin = [],
+        AverageCh2Cwtout = [],
+        AverageCh2Cwtin = [],
+        AverageCh1Kw = [],
+        AverageCh2Kw = [],
+        AverageCh1Dbt = [],
+        AverageCh1Rh = [];
+
+    // 很多圖要畫 - array
+    var ChartObject = [];
+
+    // 畫圖 - 初始定義
+    var chart;
+    var create_chart = function (TimeArray, Yaxis_DataName, Yaxis_DataArray, title_text,
+        tooltip_unit, Chart_ID, Out_Div, chart_object,
+        num1Name, num1Date) {
+
+        var low, high;
+        if (Yaxis_DataName == "流量") {
+            high = 15;
+            low = 0.02;
+        }
+        else if (Yaxis_DataName == "出水溫度") {
+            high = 28.5;
+            low = 13;
+        }
+        else if (Yaxis_DataName == "耗電量") {
+            high = 1.5;
+            low = 0;
+        }
+        else if (Yaxis_DataName == "製冷噸數") {
+            high = 20;
+            low = 0;
+        }
+        else if (Yaxis_DataName == "性能係數") {
+            high = 0.29;
+            low = 0;
+        }
+        $("#" + Chart_ID).remove();
+        $(Out_Div).append('<div id=' + Chart_ID + '></div>');
+        var options = { // 開源apexchart
+            series: [{
+                name: Yaxis_DataName,
+                data: Yaxis_DataArray
+            }],
+            annotations: {
+                yaxis: [{
+                    y: low,
+                    borderColor: '#000000',
+                    label: {
+                        borderColor: '#000000',
+                        style: {
+                            color: '#fff',
+                            background: '#000000',
+                        },
+                        text: '下限',
+                    }
+                },
+                {
+                    y: high,
+                    borderColor: '#000000',
+                    label: {
+                        borderColor: '#000000',
+                        style: {
+                            color: '#fff',
+                            background: '#000000',
+                        },
+                        text: '上限',
+                    }
+                }]
+            },
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            grid: {
+                row: {
+                    colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+                    opacity: 0.5
+                },
+            },
+            xaxis: {
+                categories: TimeArray,
+                tickAmount: 5,
+                labels: {
+                    rotate: 0,    //讓你的日期不再傾斜
+                },
+                title: {
+                    text: '時間',
+                    style: {
+                        fontSize: '20px' //調整字體大小
+                    }
+                }
+            },
+            yaxis: {
+                title: {
+                    text: title_text,
+                    style: {
+                        fontSize: '20px' //調整字體大小
+                    }
+                }
+            },
+            legend: {
+                position: 'top',
+                horizontalAlign: 'right',
+                floating: true
+            },
+            //下面這個功能可以讓你的圖上顯示數字的單位
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                        return val + tooltip_unit;
+                    }
+                }
+            }
+        };
+        if (Yaxis_DataName != "冰水系統01 - 冷卻水流量(共管)" &&
+            Yaxis_DataName != "冰機1號乾球溫度" &&
+            Yaxis_DataName != "冰機1號相對濕度") { // series裡面有兩個data
+            options.series[1] = {
+                name: num1Name,
+                data: num1Date
+            }
+        }
+            if(TimeArray != Time){ // 年報/月報
+            options.chart.type = "bar";
+            }
+        chart = new ApexCharts(document.querySelector("#" + Chart_ID), options);
+        chart.render();
+
+        //畫完圖後要把chart變數放入array裡面
+        ChartObject[chart_object] = chart;
+    };
+    @if (YearData != null)
+    {
+        @:IsYearDataNull = 0;
+        foreach (var item in YearData)
+        {
+            @:Month.push(@item.Month);
+            @:AverageCh1Chwflow.push(@item.AverageCh1Chwflow);
+            @:AverageCh1Chwtout.push(@item.AverageCh1Chwtout);
+            @:AverageCh1Chwtin.push(@item.AverageCh1Chwtin);
+            @:AverageCh2Chwflow.push(@item.AverageCh2Chwflow);
+            @:AverageCh2Chwtout.push(@item.AverageCh2Chwtout);
+            @:AverageCh2Chwtin.push(@item.AverageCh2Chwtin);
+            @:AverageCh1Cwflow.push(@item.AverageCh1Cwflow);
+            @:AverageCh1Cwtout.push(@item.AverageCh1Cwtout);
+            @:AverageCh1Cwtin.push(@item.AverageCh1Cwtin);
+            @:AverageCh2Cwtout.push(@item.AverageCh2Cwtout);
+            @:AverageCh2Cwtin.push(@item.AverageCh2Cwtin);
+            @:AverageCh1Kw.push(@item.AverageCh1Kw);
+            @:AverageCh2Kw.push(@item.AverageCh2Kw);
+            @:AverageCh1Dbt.push(@item.AverageCh1Dbt);
+            @:AverageCh1Rh.push(@item.AverageCh1Rh);
+       }
+    }
+
+
+    if (IsYearDataNull == 0) {
+
+        //畫圖
+        document.getElementById("CHTOutElement").style.display = 'block';
+        document.getElementById("CHTInElement").style.display = 'block';
+        document.getElementById("CTTOutElement").style.display = 'block';
+        document.getElementById("CTTInElement").style.display = 'block';
+        document.getElementById("FlowElement").style.display = 'block';
+        document.getElementById("PowerElement").style.display = 'block';
+        document.getElementById("TOElement").style.display = 'block';
+        document.getElementById("RHElement").style.display = 'block';
+      
+        create_chart(Month, "冰機1號冰水出水溫度", AverageCh1Chwtout, "冰機冰水出水溫度(°C)", " °C", "CHTOutChart", "#CHTOutDiv", 0, "冰機5號冰水出水溫度",
+            AverageCh2Chwtout);
+        create_chart(Month, "冰機1號冰水回水溫度", AverageCh1Chwtin, "冰機冰水回水溫度(°C)", " °C", "CHTInChart", "#CHTInDiv", 1, "冰機5號冰水回水溫度",
+            AverageCh2Chwtin);
+        create_chart(Month, "冰機1號冷卻水出水溫度", AverageCh1Cwtout, "冰機冷卻水出水溫度(°C)", " °C", "CTTOutChart", "#CTTOutDiv", 2, "冰機5號冷卻水出水溫度",
+            AverageCh2Cwtout);
+        create_chart(Month, "冰機1號冷卻水回水溫度", AverageCh1Cwtin, "冰機冷卻水回水溫度(°C)", " °C", "CTTInChart", "#CTTInDiv", 3, "冰機5號冷卻水回水溫度",
+            AverageCh2Cwtin);
+        create_chart(Month, "冰機1號冰水出水流量", AverageCh1Chwflow, "冰水出水流量(LPM)", " LPM", "FlowChart", "#FlowDiv", 4, "冰機5號冰水出水流量",
+            AverageCh2Chwflow);
+        create_chart(Month, "冰機1號功率", AverageCh1Kw, "功率(kW)", " kW", "PowerChart", "#PowerDiv", 5, "冰機5號即時用電",
+            AverageCh2Kw);
+        create_chart(Month, "冰水系統01 - 冷卻水流量(共管)", AverageCh1Cwflow, "冷卻水共管流量(LPM)", " LPM", "FlowCommonChart", "#FlowCommonDiv", 6, "",
+            AverageCh1Rh);
+        create_chart(Month, "冰機1號乾球溫度", AverageCh1Dbt, "乾球溫度(°C)", " °C", "DBTChart", "#DBTDiv", 7, "",
+            AverageCh1Rh);
+        create_chart(Month, "冰機1號相對濕度", AverageCh1Rh, "相對濕度(%)", " %", "RHChart", "#RHDiv", 8, "",
+            AverageCh1Rh);
+            //冰水系統01 - 冷卻水流量(共管)(LPM)
+                //室外空氣 - 乾球溫度
+ }
+
+    @if (MonthData != null)
+    {
+        @:IsMonthDataNull = 0;
+        foreach (var item in MonthData)
+        {
+            @:Day.push(@item.Day);
+            @:AverageCh1Chwflow.push(@item.AverageCh1Chwflow);
+            @:AverageCh1Chwtout.push(@item.AverageCh1Chwtout);
+            @:AverageCh1Chwtin.push(@item.AverageCh1Chwtin);
+            @:AverageCh2Chwflow.push(@item.AverageCh2Chwflow);
+            @:AverageCh2Chwtout.push(@item.AverageCh2Chwtout);
+            @:AverageCh2Chwtin.push(@item.AverageCh2Chwtin);
+            @:AverageCh1Cwflow.push(@item.AverageCh1Cwflow);
+            @:AverageCh1Cwtout.push(@item.AverageCh1Cwtout);
+            @:AverageCh1Cwtin.push(@item.AverageCh1Cwtin);
+            @:AverageCh2Cwtout.push(@item.AverageCh2Cwtout);
+            @:AverageCh2Cwtin.push(@item.AverageCh2Cwtin);
+            @:AverageCh1Kw.push(@item.AverageCh1Kw);
+            @:AverageCh2Kw.push(@item.AverageCh2Kw);
+            @:AverageCh1Dbt.push(@item.AverageCh1Dbt);
+            @:AverageCh1Rh.push(@item.AverageCh1Rh);
+        }
+    }
+ 
+    if (IsMonthDataNull == 0) {
+
+        // 畫圖
+        document.getElementById("CHTOutElement").style.display = 'block';
+        document.getElementById("CHTInElement").style.display = 'block';
+        document.getElementById("CTTOutElement").style.display = 'block';
+        document.getElementById("CTTInElement").style.display = 'block';
+        document.getElementById("FlowElement").style.display = 'block';
+        document.getElementById("PowerElement").style.display = 'block';
+        document.getElementById("TOElement").style.display = 'block';
+        document.getElementById("RHElement").style.display = 'block';
+        
+        create_chart(Day, "冰機1號冰水出水溫度", AverageCh1Chwtout, "冰機冰水出水溫度(°C)", " °C", "CHTOutChart", "#CHTOutDiv", 0, "冰機5號冰水出水溫度",
+            AverageCh2Chwtout);
+        create_chart(Day, "冰機1號冰水回水溫度", AverageCh1Chwtin, "冰機冰水回水溫度(°C)", " °C", "CHTInChart", "#CHTInDiv", 1, "冰機5號冰水回水溫度",
+            AverageCh2Chwtin);
+        create_chart(Day, "冰機1號冷卻水出水溫度", AverageCh1Cwtout, "冰機冷卻水出水溫度(°C)", " °C", "CTTOutChart", "#CTTOutDiv", 2, "冰機5號冷卻水出水溫度",
+            AverageCh2Cwtout);
+        create_chart(Day, "冰機1號冷卻水回水溫度", AverageCh1Cwtin, "冰機冷卻水回水溫度(°C)", " °C", "CTTInChart", "#CTTInDiv", 3, "冰機5號冷卻水回水溫度",
+            AverageCh2Cwtin);
+        create_chart(Day, "冰機1號冰水出水流量", AverageCh1Chwflow, "冰水出水流量(LPM)", " LPM", "FlowChart", "#FlowDiv", 4, "冰機5號冰水出水流量",
+            AverageCh2Chwflow);
+        create_chart(Day, "冰機1號功率", AverageCh1Kw, "功率(kW)", " kW", "PowerChart", "#PowerDiv", 5, "冰機5號即時用電",
+            AverageCh2Kw);
+        create_chart(Day, "冰水系統01 - 冷卻水流量(共管)", AverageCh1Cwflow, "冷卻水共管流量(LPM)", " LPM", "FlowCommonChart", "#FlowCommonDiv", 6, "",
+            AverageCh1Rh);
+        create_chart(Day, "冰機1號乾球溫度", AverageCh1Dbt, "乾球溫度(°C)", " °C", "DBTChart", "#DBTDiv", 7, "",
+            AverageCh1Rh);
+        create_chart(Day, "冰機1號相對濕度", AverageCh1Rh, "相對濕度(%)", " %", "RHChart", "#RHDiv", 8, "",
+            AverageCh1Rh);
+            //冰水系統01 - 冷卻水流量(共管)(LPM)
+                //室外空氣 - 乾球溫度
+
+            }
+
+    @if (DayData != null)
+    {
+        @:IsDayDataNull = 0;
+        foreach (var item in DayData)
+        {
+            DateTime dt = item.Time;
+            string dt_str = String.Format("{0:yyyy/MM/dd hh:mm}", dt); // datetime to string
+            @:var dt = new Date("@dt_str"); // c# to js
+            @:dt = dt.toLocaleString('chinese', { hour12: false }); // format to 'yyyy/MM/dd hh:mm:ss'
+            @:var TimeResult = dt.substring(11, 16);
+            @:Time.push("@item.Time");
+            @:Ch1Chwflow.push(@item.Ch1Chwflow);
+            @:Ch1Chwtout.push(@item.Ch1Chwtout);
+            @:Ch1Chwtin.push(@item.Ch1Chwtin);
+            @:Ch2Chwflow.push(@item.Ch2Chwflow);
+            @:Ch2Chwtout.push(@item.Ch2Chwtout);
+            @:Ch2Chwtin.push(@item.Ch2Chwtin);
+            @:Ch1Cwflow.push(@item.Ch1Cwflow);
+            @:Ch1Cwtout.push(@item.Ch1Cwtout);
+            @:Ch1Cwtin.push(@item.Ch1Cwtin);
+            @:Ch2Cwtout.push(@item.Ch2Cwtout);
+            @:Ch2Cwtin.push(@item.Ch2Cwtin);
+            @:Ch1Kw.push(@item.Ch1Kw);
+            @:Ch2Kw.push(@item.Ch2Kw);
+            @:Ch1Dbt.push(@item.Ch1Dbt);
+            @:Ch1Rh.push(@item.Ch1Rh);
+        }
+    }
+
+    if(IsDayDataNull != null)
+    {
+    // 畫圖
+    document.getElementById("CHTOutElement").style.display = 'block';
+    document.getElementById("CHTInElement").style.display = 'block';
+    document.getElementById("CTTOutElement").style.display = 'block';
+    document.getElementById("CTTInElement").style.display = 'block';
+    document.getElementById("FlowElement").style.display = 'block';
+    document.getElementById("PowerElement").style.display = 'block';
+    document.getElementById("TOElement").style.display = 'block';
+    document.getElementById("RHElement").style.display = 'block';
+
+    // 撈初始資料->畫圖
+    create_chart(Time, "冰機1號冰水出水溫度", Ch1Chwtout, "冰機冰水出水溫度(°C)", " °C", "CHTOutChart", "#CHTOutDiv", 0, "冰機5號冰水出水溫度",
+        Ch2Chwtout);
+    create_chart(Time, "冰機1號冰水回水溫度", Ch1Chwtin, "冰機冰水回水溫度(°C)", " °C", "CHTInChart", "#CHTInDiv", 1, "冰機5號冰水回水溫度",
+        Ch2Chwtin);
+    create_chart(Time, "冰機1號冷卻水出水溫度", Ch1Cwtout, "冰機冷卻水出水溫度(°C)", " °C", "CTTOutChart", "#CTTOutDiv", 2, "冰機5號冷卻水出水溫度",
+        Ch2Cwtout);
+    create_chart(Time, "冰機1號冷卻水回水溫度", Ch1Cwtin, "冰機冷卻水回水溫度(°C)", " °C", "CTTInChart", "#CTTInDiv", 3, "冰機5號冷卻水回水溫度",
+        Ch2Cwtin);
+    create_chart(Time, "冰機1號冰水出水流量", Ch1Chwflow, "冰水出水流量(LPM)", " LPM", "FlowChart", "#FlowDiv", 4, "冰機5號冰水出水流量",
+        Ch2Chwflow);
+    create_chart(Time, "冰機1號功率", Ch1Kw, "功率(kW)", " kW", "PowerChart", "#PowerDiv", 5, "冰機5號即時用電",
+        Ch2Kw);
+    create_chart(Time, "冰水系統01 - 冷卻水流量(共管)", Ch1Cwflow, "冷卻水共管流量(LPM)", " LPM", "FlowCommonChart", "#FlowCommonDiv", 6, "",
+        Ch1Rh);
+    create_chart(Time, "冰機1號乾球溫度", Ch1Dbt, "乾球溫度(°C)", " °C", "DBTChart", "#DBTDiv", 7, "",
+        Ch1Rh);
+    create_chart(Time, "冰機1號相對濕度", Ch1Rh, "相對濕度(%)", " %", "RHChart", "#RHDiv", 8, "",
+        Ch1Rh);
+            //冰水系統01 - 冷卻水流量(共管)(LPM)
+               //室外空氣 - 乾球溫度
+}
+
+
+
+    function ChangePeriod() {
+        var SelectPeriod = document.getElementById("SearchPeriod").value;
+        if (SelectPeriod == 'Year') {
+            var ui = document.getElementById("SelectYearDiv_big");
+            ui.style.display = "inline";
+            $(".SearchYear").show();
+            $(".SearchMonth").hide();
+            $(".SearchDay").hide();
+            SelectYearDiv_big
+            console.log("year");
+        }
+        else if (SelectPeriod == 'Month') {
+            var ui = document.getElementById("SelectMonthDiv_big");
+            ui.style.display = "inline";
+            $(".SearchMonth").show();
+            $(".SearchYear").hide();
+            $(".SearchDay").hide();
+            console.log("Month");
+        }
+        else if (SelectPeriod == 'Day') {
+            $(".SearchDay").show();
+            $(".SearchMonth").hide();
+            $(".SearchYear").hide();
+            console.log("Day");
+        }
+    };
+
+    function yearr() {
+        document.Year.action = "/Query/YearQuery";
+        document.Year.submit();
+    }
+    function ExcelYear() {
+        document.Year.action = "/Excel/Excel_QueryPeriod_Year";
+    }
+
+    function Find() {
+        document.Month.action = "/Query/MonthQuery";
+        document.Month.submit();
+    }
+    function ExcelMonth() {
+        document.Month.action = "/Excel/Excel_QueryPeriod_Month";
+        document.getElementById("excel_Month").value = document.getElementById("Month").value;
+        document.getElementById("MonthId").submit(); document.Month.submit();
+    }
+
+    function Day() {
+        document.day.action = "/Query/DayQuery";
+        document.day.submit();
+    }
+    function ExcelDay() {
+        document.day.action = "/Excel/Excel_QueryPeriod_Day";
+        document.getElementById("excel_Day").value = document.getElementById("day").value;
+        document.getElementById("DayId").submit();
+    }
+
+</script>

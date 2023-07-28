@@ -1,0 +1,774 @@
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\appsettings.Development.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\appsettings.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Global608.staticwebassets.runtime.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Global608.exe
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Global608.deps.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Global608.runtimeconfig.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Global608.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Global608.pdb
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Azure.Core.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Azure.Identity.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Humanizer.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.CodeDom.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Memory.Data.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Text.Json.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.csproj.AssemblyReference.cache
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfoInputs.cache
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfo.cs
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CoreCompileInputs.cache
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.MvcApplicationPartsAssemblyInfo.cache
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cache
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cs
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\staticwebassets.build.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\staticwebassets.development.json
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\scopedcss\bundle\Global608.styles.css
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\scopedcss\projectbundle\Global608.bundle.scp.css
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CopyComplete
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\refint\Global608.dll
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.pdb
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\Global608.genruntimeconfig.cache
+D:\coding_wei\asp net core mvc\Global608\Global608\Global608\obj\Debug\net6.0\ref\Global608.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\appsettings.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Global608.staticwebassets.runtime.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Global608.exe
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Global608.deps.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Global608.runtimeconfig.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Global608.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Global608.pdb
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Enums.NET.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Humanizer.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\MathNet.Numerics.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\NPOI.OOXML.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\NPOI.OpenXml4Net.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\NPOI.OpenXmlFormats.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\NPOI.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.csproj.AssemblyReference.cache
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfoInputs.cache
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfo.cs
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CoreCompileInputs.cache
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cache
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cs
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\scopedcss\bundle\Global608.styles.css
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\scopedcss\projectbundle\Global608.bundle.scp.css
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CopyComplete
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\refint\Global608.dll
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.pdb
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\Global608.genruntimeconfig.cache
+C:\Users\608-2\Desktop\4個網站\Global608\Global608\obj\Debug\net6.0\ref\Global608.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\appsettings.Development.json
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\appsettings.json
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Global608.staticwebassets.runtime.json
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Global608.exe
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Global608.deps.json
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Global608.runtimeconfig.json
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Global608.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Global608.pdb
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Azure.Core.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Azure.Identity.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Enums.NET.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Humanizer.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\MathNet.Numerics.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NPOI.OOXML.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NPOI.OpenXml4Net.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NPOI.OpenXmlFormats.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NPOI.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.CodeDom.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Memory.Data.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Text.Json.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.csproj.AssemblyReference.cache
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfoInputs.cache
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfo.cs
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CoreCompileInputs.cache
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.MvcApplicationPartsAssemblyInfo.cache
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cache
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cs
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\staticwebassets.build.json
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\staticwebassets.development.json
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\scopedcss\bundle\Global608.styles.css
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\scopedcss\projectbundle\Global608.bundle.scp.css
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CopyComplete
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.dll
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\refint\Global608.dll
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.pdb
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\Global608.genruntimeconfig.cache
+D:\temp\Global608(1)\Global608\Global608\obj\Debug\net6.0\ref\Global608.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\MessagePack.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Build.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.Common.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\temp\Global608(1)\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\appsettings.Development.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\appsettings.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Global608.staticwebassets.runtime.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Global608.exe
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Global608.deps.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Global608.runtimeconfig.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Global608.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Global608.pdb
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Azure.Core.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Azure.Identity.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Enums.NET.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Humanizer.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\MathNet.Numerics.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\MessagePack.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Build.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NPOI.OOXML.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NPOI.OpenXml4Net.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NPOI.OpenXmlFormats.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NPOI.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.Common.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.CodeDom.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Memory.Data.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Text.Json.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.csproj.AssemblyReference.cache
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfoInputs.cache
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.AssemblyInfo.cs
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CoreCompileInputs.cache
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.MvcApplicationPartsAssemblyInfo.cache
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cache
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.RazorAssemblyInfo.cs
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\staticwebassets.build.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\staticwebassets.development.json
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\scopedcss\bundle\Global608.styles.css
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\scopedcss\projectbundle\Global608.bundle.scp.css
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.csproj.CopyComplete
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\refint\Global608.dll
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.pdb
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\Global608.genruntimeconfig.cache
+D:\coding_wei\案子\working code-20221228T132900Z-001\working code\Global608_Final\Global608\Global608\obj\Debug\net6.0\ref\Global608.dll

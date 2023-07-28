@@ -1,0 +1,358 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var YearData = ViewBag.YearData;
+    var OpNo1 = ViewBag.OpNo1;
+    var OpNo2 = ViewBag.OpNo2;
+
+    var QueryType = ViewBag.QueryType;
+    var QueryPeriod = ViewBag.QueryPeriod;
+    var year = ViewBag.year;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">年度統計查詢</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="SelectYearDiv_big" class="SearchYear">
+                            <form name="Year" method="post" enctype="multipart/form-data" asp-controller="Query" asp-action="YearQuery">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                選擇年分：
+                                <select name="year" class="selectpicker" data-size="8" data-style="btn btn-info btn-fill" title="請選擇年分" id="SearchYear" onchange="ChangePeriod()">
+                                    <option disabled="disabled" selected="selected">請選擇年分</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                </select>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div id="SelectYearDiv" style="display:inline"></div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input onclick="yearr()" style="font-weight:bold;margin-top:5px;margin-bottom:9px;display:inline;height:40px" class="btn btn-fill btn-sm btn-warning" type="submit" value="查詢" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">總性能係數(kW/RT)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="kWRTDiv">
+                        <div id="kWRTChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">總耗電量(kWh)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="kWDiv">
+                        <div id="kWChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">總製冷噸數(RTh)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="RTDiv">
+                        <div id="RTChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">模式1 - 性能係數(kW/RT)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="kWRT1Div">
+                        <div id="kWRT1Chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">模式1 - 總製冷噸數(RTh)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="RT1Div">
+                        <div id="RT1Chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">模式2 - 性能係數(kW/RT)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="kWRT2Div">
+                        <div id="kWRT2Chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;" id="CHTOutElement">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">模式2 - 總製冷噸數(RTh)</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="RT2Div">
+                        <div id="RT2Chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var IsYearDataNull = 1;
+    var IsOpNo1Null = 1;
+    var IsOpNo2Null = 1;
+
+    // 收到資料後
+    var Month = [];
+    var TotalRT = [];
+    var TotalkW = [];
+    var TotalkW1 = [];
+    var TotalkW2 = [];
+
+    var TotalkWRT = [];
+
+    var Month1 = [];
+    var RT1 = [];
+    var Ch1kWRT = [];
+
+    var Month2 = [];
+    var RT2 = [];
+    var Ch2kWRT = [];
+
+    @if (YearData != null) // 模式3
+    {
+        @:IsYearDataNull = 0;
+        foreach (var item in YearData)
+        {
+            @:Month.push(@item.Month);
+            @:TotalRT.push(@item.TotalRt);
+            @:TotalkW.push(@item.TotalkW);
+            @:TotalkWRT.push(@item.TotalkWrt);
+        }
+    }
+    @if (OpNo1 != null) // 模式1
+    {
+        @:IsOpNo1Null = 0;
+        foreach (var item in OpNo1)
+        {
+            @:Month1.push(@item.Month);
+            @:RT1.push(@item.Rt1);
+            @:TotalkW1.push(@item.TotalkW);
+            @:Ch1kWRT.push(@item.Ch1kWrt);
+        }
+    }
+    @if (OpNo2 != null) // 模式2
+    {
+        @:IsOpNo2Null = 0;
+        foreach (var item in OpNo2)
+        {
+            @:Month2.push(@item.Month);
+            @:RT2.push(@item.Rt2);
+            @:TotalkW2.push(@item.TotalkW);
+            @:Ch2kWRT.push(@item.Ch2kWrt);
+        }
+    }
+    // 畫圖 - 初始定義
+    var chart;
+    var create_chart = function (TimeArray, Yaxis_DataName, Yaxis_DataArray, title_text,
+        tooltip_unit, Chart_ID, Out_Div) {
+        $("#" + Chart_ID).remove();
+        $(Out_Div).append('<div id=' + Chart_ID + '></div>');
+        var options = { // 開源apexchart
+            series: [{
+                name: Yaxis_DataName,
+                data: Yaxis_DataArray
+            }],
+            chart: {
+                height: 350,
+                type: 'bar',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            grid: {
+                row: {
+                    colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+                    opacity: 0.5
+                },
+            },
+            xaxis: {
+                categories: TimeArray,
+                tickAmount: 5,
+                labels: {
+                    rotate: 0,    //讓你的日期不再傾斜
+                },
+                title: {
+                    text: '月分',
+                    style: {
+                        fontSize: '20px' //調整字體大小
+                    }
+                }
+            },
+            yaxis: {
+                title: {
+                    text: title_text,
+                    style: {
+                        fontSize: '20px' //調整字體大小
+                    }
+                }
+            },
+            legend: {
+                position: 'top',
+                horizontalAlign: 'right',
+                floating: true
+            },
+            //下面這個功能可以讓你的圖上顯示數字的單位
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                        return val + tooltip_unit;
+                    }
+                }
+            }
+        };
+        chart = new ApexCharts(document.querySelector("#" + Chart_ID), options);
+        chart.render();
+    };
+
+    if (IsYearDataNull == 0) { // 模式3
+        create_chart(Month,"性能係數", TotalkWRT, "kW/RT", " kW/RT", "kWRTChart", "#kWRTDiv");
+        create_chart(Month, "總耗電量", TotalkW, "kWh", " kWh", "kWChart", "#kWDiv");
+        create_chart(Month, "總製冷噸數", TotalRT, "RTh", " RTh", "RTChart", "#RTDiv");
+    }
+    if (IsOpNo1Null == 0) { // 模式1
+        create_chart(Month1, "模式1 - 性能係數", Ch1kWRT, "kW/RT", " kW/RT", "kWRT1Chart", "#kWRT1Div");
+        create_chart(Month1, "模式1 - 總製冷噸數", RT1, "RTh", " RTh", "RT1Chart", "#RT1Div");
+    }
+    if (IsOpNo2Null == 0) { // 模式2
+        create_chart(Month2, "模式2 - 性能係數", Ch2kWRT, "kW/RT", " kW/RT", "kWRT2Chart", "#kWRT2Div");
+        create_chart(Month2, "模式2 - 總製冷噸數", RT2, "RTh", " RTh", "RT2Chart", "#RT2Div");
+    }
+
+    var SearchorNot = false;
+    var selectedBar = 0;
+    var SBchart = [];
+    $(document).ready(function () {
+        // initialise Datetimepicker and Sliders
+        md.initFormExtendedDatetimepickers();
+        if ($('.slider').length != 0) {
+            md.initSliders();
+        }
+        $("#SearchDay").datepicker("setDate", new Date());
+    });
+
+    function ChangePeriod() {
+        var SelectPeriod = document.getElementById("SearchPeriod").value;
+        var QueryPeriod = "@QueryPeriod";
+        if (SelectPeriod == 'Year' || QueryPeriod == "yes") {
+            var ui = document.getElementById("SelectYearDiv_big");
+            ui.style.display = "inline";
+            $(".SearchYear").show();
+            $(".SearchMonth").hide();
+            $(".SearchDay").hide();
+        }
+    };
+
+    function yearr() {
+        document.Year.action = "/Statistics/YearQuery";
+        document.Year.submit();
+    }
+    function ExcelYear() {
+        document.Year.action = "/Excel/Excel_QueryPeriod_Year";
+    }
+</script>

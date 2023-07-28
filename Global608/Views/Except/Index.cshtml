@@ -1,0 +1,675 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Number = ViewBag.Number;
+    var Exception_Ch1Chwflow = ViewBag.Ch1Chwflow;
+    var Exception_Ch1Chwtout = ViewBag.Ch1Chwtout;
+    var Exception_Ch1Chwtin = ViewBag.Ch1Chwtin;
+    var Exception_Ch2Chwflow = ViewBag.Ch2Chwflow;
+    var Exception_Ch2Chwtout = ViewBag.Ch2Chwtout;
+    var Exception_Ch2Chwtin = ViewBag.Ch2Chwtin;
+    var Exception_Ch1Cwflow = ViewBag.Ch1Cwflow;
+    var Exception_Ch1Cwtout = ViewBag.Ch1Cwtout;
+    var Exception_Ch1Cwtin = ViewBag.Ch1Cwtin;
+    var Exception_Ch2Cwtout = ViewBag.Ch2Cwtout;
+    var Exception_Ch2Cwtin = ViewBag.Ch2Cwtin;
+    var Exception_Ch1Kw = ViewBag.Ch1Kw;
+    var Exception_Ch2Kw = ViewBag.Ch2Kw;
+    var Exception_Ch1Dbt = ViewBag.Ch1Dbt;
+    var Exception_Ch1Rh = ViewBag.Ch1Rh;
+}
+
+<style>
+    tr:nth-child(even) {
+        background-color: #EEEEEE;
+    }
+</style>
+<div class="row" id="title_id_0">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機1: 冰水出水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody1">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冰水出水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Chwtout)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Chwtout
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機1: 冰水回水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冰水回水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Chwtin)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Chwtin
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機1: 出水流量(LPM)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        出水流量(LPM)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Chwflow)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Chwflow
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="title_id_0">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機2: 冰水出水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody1">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冰水出水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch2Chwtout)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch2Chwtout
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機2: 冰水回水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冰水回水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch2Chwtin)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch2Chwtin
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機2: 出水流量(LPM)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        出水流量(LPM)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch2Chwflow)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch2Chwflow
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機: 冷卻水流量-共管(LPM)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冷卻水出水流量(LPM)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Cwflow)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Cwflow
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機1: 冷卻水出水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冷卻水出水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Cwtout)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Cwtout
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機1: 冷卻水回水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冷卻水回水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Cwtin)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Cwtin
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機2: 冷卻水出水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冷卻水出水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch2Cwtout)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch2Cwtout
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    冰水主機2: 冷卻水回水溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        冷卻水回水溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch2Cwtin)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch2Cwtin
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    空調系統-1(KW)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        耗電量(KW)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Kw)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Power1
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    空調系統-2(KW)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        耗電量(KW)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch2Kw)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Power2
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    室外空氣: 乾球溫度(°C)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        乾球溫度(°C)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Dbt)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Dbt
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="title_id_1">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    室外空氣: 相對溼度(%)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table style="width:100%;font-weight:bold;text-align:center; border-bottom:3px #000000 solid;border-top:3px #000000 solid;font-size:24px;">
+                            <tbody id="TableTbody2">
+                                <tr style="background-color:#036EB7;border-bottom:2px #000000 solid;border-top:2px #000000 solid;color:white;height:40px;">
+                                    <th>
+                                        時間
+                                    </th>
+                                    <th>
+                                        相對溼度(%)
+                                    </th>
+                                <tr />
+                                    @foreach (var obj in Exception_Ch1Rh)
+                                    {
+                                    <tr>
+                                        <td width="50%">
+                                                @obj.Time
+                                        </td>
+                                        <td width="30%">
+                                                @obj.Ch1Rh
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

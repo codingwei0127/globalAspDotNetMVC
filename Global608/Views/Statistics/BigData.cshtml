@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewData["Title"] = "BigData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Global_Ch1 = ViewBag.Global_Ch1;
+    var Global_Ch2 = ViewBag.Global_Ch2;
+    var Global_Total = ViewBag.Global_Total;
+}
+
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6">
+        <div class="card" style="background-color: #ffffff;">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <h4 class="card-title" style="font-weight:bold;color:#013d66">
+                    開機組合性能統計
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <label class="col-md-1"></label>
+                    <div class="chart-container col-md-11" id="CHTInDiv">
+                        <div id="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+
+    // 撈資料
+    var Ch1kWRT = [],
+        RT1 = [],
+        Ch2kWRT = [],
+        RT2 = [],
+        TotalkWRT = [],
+        TotalRT = [];
+
+    var TotalPower_1 = []; // 模式1~3他們的總耗電都是相同資料, 但筆數不同
+    var TotalPower_2 = [];
+    var TotalPower_3 = [];
+
+    @foreach (var item in Global_Ch1)
+    {
+        @:Ch1kWRT.push(@item.Ch1kWrt);
+        @:RT1.push(@item.Rt1);
+
+        @:TotalPower_1.push(@item.TotalPower);
+    }
+    @foreach (var item in Global_Ch2)
+    {
+        @:Ch2kWRT.push(@item.Ch2kWrt);
+        @:RT2.push(@item.Rt2);
+
+        @:TotalPower_2.push(@item.TotalPower);
+    }
+    @foreach (var item in Global_Total)
+    {
+        @:TotalkWRT.push(@item.TotalkWrt);
+        @:TotalRT.push(@item.TotalRt);
+
+        @:TotalPower_3.push(@item.TotalPower);
+    }
+
+    // 撈資料-end
+    var Global_Chiller_One = [];
+    var DataLength = Ch1kWRT.length;
+    for (let i = 0; i < DataLength; i++) {
+        var point = [];
+        point.push(RT1[i]);
+        //point.push(Ch1kWRT[i]);
+        point.push(TotalPower_1[i]);
+        Global_Chiller_One.push(point);
+    }
+
+    var Global_Chiller_Two = [];
+    var DataLength = TotalkWRT.length;
+    for (let i = 0; i < DataLength; i++) {
+        var point = [];
+        point.push(RT2[i]);
+        //point.push(Ch2kWRT[i]);
+        point.push(TotalPower_2[i]);
+        Global_Chiller_Two.push(point);
+    }
+
+    var Global_Chiller_AllOpen = [];
+    var DataLength = Ch2kWRT.length;
+    for (let i = 0; i < DataLength; i++) {
+        var point = [];
+        point.push(TotalRT[i]);
+        //point.push(TotalkWRT[i]);
+        point.push(TotalPower_3[i]);
+        Global_Chiller_AllOpen.push(point);
+    }
+
+    var options = {
+        series: [{
+            name: "開機組合1 - 只開1號",
+            data: Global_Chiller_One
+        }, {
+            name: "開機組合2 - 只開2號",
+            data: Global_Chiller_Two
+        }, {
+            name: "開機組合3 - 全開",
+            data: Global_Chiller_AllOpen
+        }],
+        chart: {
+            height: 350,
+            type: 'scatter',
+            zoom: {
+                enabled: true,
+                type: 'xy'
+            }
+        },
+        xaxis: {
+            tickAmount: 10,
+            labels: {
+                formatter: function (val) {
+                    return parseFloat(val).toFixed(1)
+                }
+            },
+            title: {
+                text: '製冷噸數(RT)',
+                offsetY: 90, // 將Y軸位置下移20個像素
+                style: {
+                    fontSize: '20px' //調整字體大小
+                }
+            }
+        },
+        yaxis: {
+            tickAmount: 7,
+            title: {
+                text: '耗電量(kW)', 
+                style: {
+                    fontSize: '20px' //調整字體大小
+                }
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
